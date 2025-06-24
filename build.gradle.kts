@@ -30,6 +30,7 @@ java {
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("com.acmerobotics.roadrunner:core:0.5.6")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     api("com.acmerobotics.roadrunner:core:0.5.6")
 }

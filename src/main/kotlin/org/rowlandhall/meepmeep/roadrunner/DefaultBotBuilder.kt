@@ -126,7 +126,7 @@ open class DefaultBotBuilder(private val meepMeep: MeepMeep) {
      *
      * @return A new [RoadRunnerBotEntity] instance.
      */
-    private fun build(): RoadRunnerBotEntity {
+    public fun build(): RoadRunnerBotEntity {
         return RoadRunnerBotEntity(
             meepMeep,
             constraints,
